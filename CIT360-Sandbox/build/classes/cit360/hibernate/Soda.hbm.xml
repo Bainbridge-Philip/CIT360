@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Feb 14, 2017 6:29:22 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="cit360.hibernate.Soda" table="soda" catalog="cit360_hibernate" optimistic-lock="version">
+        <id name="sodaId" type="java.lang.Integer">
+            <column name="sodaId" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="20" not-null="true" />
+        </property>
+        <property name="flavor" type="string">
+            <column name="flavor" length="20" not-null="true" />
+        </property>
+        <property name="color" type="string">
+            <column name="color" length="20" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
