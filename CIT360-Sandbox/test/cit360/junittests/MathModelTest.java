@@ -14,10 +14,7 @@ import static org.junit.Assert.*;
  */
 public class MathModelTest {
 
-    public MathModelTest() {
-    }
-
-    /**
+     /**
      * Test of add method, of class MathModel.
      */
     @Test
